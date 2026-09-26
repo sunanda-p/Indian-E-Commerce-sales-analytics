@@ -41,8 +41,15 @@ This project explores sales and customer data to answer practical business quest
 - **Date coverage:** 2024-06-01 to 2026-06-30
 - **License:** CC0: Public Domain
 
+## Key findings
+- Monthly revenue peaked in March 2026 at 22,56,18,071.57 (about 225.62 million).
+- Electronics generated the highest category revenue, at 3,870.03M.
+- Uttar Pradesh had the highest state revenue at 69,14,95,333.88 (approximately 691.50M).
+- UPI was the most-used payment method, with 115,651 orders (51.4%); COD followed with approximately 74,000 orders (32.84%).
+- Samsung Mobile V4 and HP Laptop V10 had nearly identical unit sales, at 2,539 and 2,537 units respectively.
+
 ## Notes
-The SQL view vw_Valid_Sales excludes cancelled and returned orders. Metric definitions and findings will be added after validation.
+The SQL view vw_Valid_Sales excludes cancelled and returned orders.
 
 ## Author
 Sunanda Seeramsetty · GitHub https://github.com/sunanda-p
