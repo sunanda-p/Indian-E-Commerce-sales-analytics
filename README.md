@@ -55,6 +55,12 @@ This project explores sales and customer data to answer practical business quest
 - UPI was the most-used payment method, with 115,651 orders (51.4%); COD followed with approximately 74,000 orders (32.84%).
 - Samsung Mobile V4 and HP Laptop V10 had nearly identical unit sales, at 2,539 and 2,537 units respectively.
 
+## Metric definitions
+
+- **Revenue:** Sum of `Total_Amount` for the sales included in the report. The SQL view `vw_Valid_Sales` excludes cancelled and returned orders.
+- **Units sold:** Sum of `Quantity` for the sales included in the report.
+- **Returns and cancellations:** Analyzed from order statuses, including returned and cancelled orders.
+
 ## Notes
 The SQL view vw_Valid_Sales excludes cancelled and returned orders.
 
