@@ -45,8 +45,10 @@ This project explores sales and customer data to answer practical business quest
 
 1. Download the dataset from the Kaggle link above.
 2. Load the `customers`, `products`, and `sales` tables into SQL Server, using the column names expected by the SQL scripts.
-3. Run the SQL scripts in numbered folder order. Create any views required by a query before running that query.
-4. Open the PBIX file in Power BI Desktop, update its data source settings, and refresh the report.
+3. Run the scripts in `01_Data_Profiling`, `02_Data_Quality_Validation`, and `03_Data_Transformation`.
+4. In `05_SQL_Business_Analysis`, run `03_SQL_Views.sql` to create the views.
+5. Run the analysis scripts in `04_Exploratory_Analysis`, then run `01_Core_Business_Analysis.sql` and `02_Advanced_Business_Analysis.sql` from `05_SQL_Business_Analysis`.
+6. Open the PBIX file in Power BI Desktop, update its data source settings, and refresh the report.
 
 ## Key findings
 - Monthly revenue peaked in March 2026 at 22,56,18,071.57 (about 225.62 million).
