@@ -6,6 +6,20 @@ An end-to-end portfolio project using SQL and Power BI to analyze e-commerce sal
 
 This project explores sales and customer data to answer practical business questions. SQL scripts cover data profiling, data quality checks, exploratory analysis, and business analysis. The Power BI report presents the results across four report pages.
 
+## Dashboard screenshots
+
+### Executive Sales Overview
+![Executive Sales Overview](screenshots/executive-sales-overview.png)
+
+### Product & Sales Performance
+![Product & Sales Performance](screenshots/product-sales-performance.png)
+
+### Customer Analysis
+![Customer Analysis](screenshots/customer-analysis.png)
+
+### Return & Cancellations Analysis
+![Return & Cancellations Analysis](screenshots/returns-cancellations.png)
+
 ## Business questions
 
 - How do revenue, orders, and units sold change over time?
