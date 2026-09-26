@@ -64,7 +64,8 @@ This project explores sales and customer data to answer practical business quest
 - **Returns and cancellations:** Analyzed from order statuses, including returned and cancelled orders.
 
 ## Notes
-The SQL view vw_Valid_Sales excludes cancelled and returned orders.
+- The SQL view vw_Valid_Sales excludes cancelled and returned orders.
+- SQL query results were cross-checked against the Power BI report for consistency.
 
 ## Author
 Sunanda Seeramsetty · GitHub https://github.com/sunanda-p
