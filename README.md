@@ -41,6 +41,13 @@ This project explores sales and customer data to answer practical business quest
 - **Date coverage:** 2024-06-01 to 2026-06-30
 - **License:** CC0: Public Domain
 
+## How to reproduce
+
+1. Download the dataset from the Kaggle link above.
+2. Load the `customers`, `products`, and `sales` tables into SQL Server, using the column names expected by the SQL scripts.
+3. Run the SQL scripts in numbered folder order. Create any views required by a query before running that query.
+4. Open the PBIX file in Power BI Desktop, update its data source settings, and refresh the report.
+
 ## Key findings
 - Monthly revenue peaked in March 2026 at 22,56,18,071.57 (about 225.62 million).
 - Electronics generated the highest category revenue, at 3,870.03M.
